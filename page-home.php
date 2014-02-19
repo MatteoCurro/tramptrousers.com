@@ -75,13 +75,13 @@ get_header(); ?>
 <?php endif; */ ?>
 		<h2 class="title centered dark_background white_font">Collection</h2>
 		<h3 class="primary_color_background centered font1 medium pad30">
-			<div class="content zoomable">Fall / Winter 2013 is out!</div>
+			<div class="content zoomable">Spring / Summer 2014 is out!</div>
 		</h3>
 		<div class="content">
 		<?php
 		  // recupere la collezione con una nuova istanza di attachment
 		// 7
-		  $attachments = new Attachments( 'attachments', 12 );
+		  $attachments = new Attachments( 'attachments', 7 );
 		?>
 		<?php if( $attachments->exist() ) : ?>
 		  <div id="images_collection" class="images_collection centered pad30 content zoomable">
@@ -106,17 +106,17 @@ get_header(); ?>
 				<a href="http://www.sancarlodal1973.com/" title="Tramp Trouser store S.Carlo Torino">S.Carlo - Torino</a><br/>
 				<!-- <a href="http://www.barrow-bibas.com/" title="Tramp Trouser store Biba's Bologna">Biba's Bologna</a><br/>
 				<a href="http://www.altamodamodena.com/" title="Tramp Trouser store Altamoda Modena">Altamoda Modena</a> -->
-				<a href="http://www.izimen.com/" title="Tramp Trouser store IZI Men - Santa Margherita Ligure">IZI Men - Santa Margherita Ligure</a><br/>
+				<a href="http://www.izimen.com/" title="Tramp Trouser store IZI Men - Santa Margherita Ligure">IZI Men Santa Margherita Ligure</a><br/>
 			</div>
 
 			<div class="content_1-3 pad30">
 				<h3>Foreign</h3>
 				<!-- <a href="http://chcmshop.com" title="Tramp Trouser store CHCM new york">CHCM new york</a><br/> -->
-				<strong>Designer Best</strong> - Bordeaux (Francia)<br>
-				<strong>Partner in Crime</strong> - Parigi (Francia)<br>
-				<strong>Unlimited Lounge</strong> - Nagoya (Giappone)<br>
-				<a href="http://www.jeanpierrebua.com/" title="Tramp Trouser store Jean Pierre Bua - Barcellona">Jean Pierre Bua- Barcellona (Spagna)</a><br>
-				<strong>Formula</strong> - Lekki (Nigeria)
+				<a href="/" style="cursor: default">Designer Best Bordeaux (FR)</a><br>
+				<a href="/" style="cursor: default">Partner in Crime Parigi (FR)</a><br>
+				<a href="/" style="cursor: default">Unlimited Lounge Nagoya (JP)</a><br>
+				<a href="http://www.jeanpierrebua.com/" title="Tramp Trouser store Jean Pierre Bua - Barcellona">Jean Pierre Bua Barcellona (ES)</a><br>
+				<a href="/" style="cursor: default">Formula Lekki (NG)</a>
 
 			</div>
 			<div class="content_1-3 pad30">
@@ -163,7 +163,7 @@ r.gallo@e-2.it</p>
 					<?php
 					// recupero il contenuto della pagina contact da fuori il loop
 					// 17
-					$id = 21;
+					$id = 17;
 					$p = get_page($id);
 					echo apply_filters('the_content', $p->post_content);
 					?>
@@ -182,17 +182,17 @@ r.gallo@e-2.it</p>
 				</div>
 			</a>
 
-			<a href="http://twitter.com/TrampTrousers" target="_blank" title="Tramp Trousers Twitter">
+			<a href="http://twitter.com/TrousersTramp" target="_blank" title="Tramp Trousers Twitter">
 				<div class="social centered zoomable" id="twitter">
 					<img src="<?php bloginfo('template_directory'); ?>/img/twitter.png" alt="Tramp Trouser Twitter">
 				</div>
 			</a>
 
-			<a href="#">
+			<!-- <a href="#">
 				<div class="social centered zoomable" id="instagram">
 					<img src="<?php bloginfo('template_directory'); ?>/img/instagram.png" alt="Tramp Trouser Instagram">
 				</div>
-			</a>
+			</a> -->
 		</div>
 	</div>
 
