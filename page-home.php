@@ -103,14 +103,20 @@ get_header(); ?>
 		<div class="content clearfix medium_font">
 			<div class="content_1-3 pad30">
 				<h3>Europe</h3>
-				<a href="http://www.sancarlodal1973.com/" title="Tramp Trouser store S.Carlo Torino">S.Carlo Torino</a><br/>
-				<a href="http://www.barrow-bibas.com/" title="Tramp Trouser store Biba's Bologna">Biba's Bologna</a><br/>
-				<a href="http://www.altamodamodena.com/" title="Tramp Trouser store Altamoda Modena">Altamoda Modena</a>
+				<a href="http://www.sancarlodal1973.com/" title="Tramp Trouser store S.Carlo Torino">S.Carlo - Torino</a><br/>
+				<!-- <a href="http://www.barrow-bibas.com/" title="Tramp Trouser store Biba's Bologna">Biba's Bologna</a><br/>
+				<a href="http://www.altamodamodena.com/" title="Tramp Trouser store Altamoda Modena">Altamoda Modena</a> -->
+				<a href="http://www.izimen.com/" title="Tramp Trouser store IZI Men - Santa Margherita Ligure">IZI Men - Santa Margherita Ligure</a><br/>
 			</div>
 
 			<div class="content_1-3 pad30">
-				<h3>States</h3>
-				<a href="http://chcmshop.com" title="Tramp Trouser store CHCM new york">CHCM new york</a>
+				<h3>Foreign</h3>
+				<!-- <a href="http://chcmshop.com" title="Tramp Trouser store CHCM new york">CHCM new york</a><br/> -->
+				<strong>Designer Best</strong> - Bordeaux (Francia)<br>
+				<strong>Partner in Crime</strong> - Parigi (Francia)<br>
+				<strong>Unlimited Lounge</strong> - Nagoya (Giappone)<br>
+				<a href="http://www.jeanpierrebua.com/" title="Tramp Trouser store Jean Pierre Bua - Barcellona">Jean Pierre Bua- Barcellona (Spagna)</a><br>
+				<strong>Formula</strong> - Lekki (Nigeria)
 
 			</div>
 			<div class="content_1-3 pad30">
